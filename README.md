@@ -6,10 +6,6 @@ de la Facultad de Ingeníera de Obera-Misiones.
 
 Este trabajo fue realizado solo con fines educativos, cualqueir uso fuera de este contecto queda bajo su responsabilidad.
 
-* Se recomienda que abra este archivo README en otra pestaña mientras realiza las tareas a continuación.
-Puede [ver nuestro video] (https://youtu.be/0ocf7u76WSo) para obtener una demostración completa de todos los pasos de este tutorial.
-Abra el video en una pestaña nueva para evitar salir de Bitbucket. *
-
 ---
 
 Modo de empleo:  bfcr -f [FICHERO]]
