@@ -9,14 +9,28 @@ Este trabajo fue realizado solo con fines educativos, cualqueir uso fuera de est
 ---
 
 Modo de empleo:  bfcr -f [FICHERO]]
-Calcula el hash con el cifrado Adler32 del archivo, luego busca en su base de dato el valor asociado, si lo encuentra devuelve [OK: (valor)]
-En el caso que no este registrado devuelve [$ Not found!]
+Calcula el hash con el cifrado Adler32 del archivo, luego busca en su base de dato el valor asociado,
+si lo encuentra devuelve [OK: (valor)]
+En el caso que no encuentre el registro en la base de dato devuelve Error:Este Hash no esta registrado.
 
-Modo de entrenamiento: bfcr -f [FICHERO]] -v [VALUE]
-Calcula el hash con el cifrado Adler32 del archivo y asocia en la base de dato el valor que se paso con la opcion -v.
+Opción de ayuda:
+ -h	Mostrar opciones de ayuda
 
-Otros parametros:
-	-d [FICHERO DATOS] : Dice que base de dato se utilizara, si no esta presente este parameto entonces se crea una por defecto. (datos.bin).
+Opciones de la aplicación:
+ -f	Archivo de imagen, la app retorna el valor asociado con el formato Ok:[value],
+	si no esta registrado devuelve Error:Este Hash no esta registrado.
+ -v	Esta opción es para registrar el valor al Hash asociado al archivo indicado en '-f [FICHERO]',
+	si el Hash ya esta registrado se ignora el registro y retorna Error:La clave [HASH] ya existe,
+	si la operación de registro tiene excito devuelve Ok:Clave registrada.
+ -w	Esta opción es para registrar el valor al Hash asociado al archivo indicado en '-f [FICHERO]'
+	si ese Hash ya esta registrado entonces sobre escribe el valor existente.
+ -c	Calcula el hash (Adler-32) del archivo indicado en la opción '-f [FICHERO]',
+	la app devuelve Hash:[0xVALUE] en hexadecimal.
+ -d	Indica que base de dato utilizar, si no se especifica la opción '-d database',
+	entonces crea una por defecto llamada 'datos.bin'.
+
+Version: 0.0.20
+
 
 ---
 
