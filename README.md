@@ -29,12 +29,10 @@ Opciones de la aplicación:
  -d	Indica que base de dato utilizar, si no se especifica la opción '-d database',
 	entonces crea una por defecto llamada 'datos.bin'.
 
-Version: 0.0.20
-
-
 ---
+* Version: 0.0.20
 
-## version: 0.0.10
+* version: 0.0.10
 ---
 
 
