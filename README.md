@@ -31,8 +31,7 @@ Opciones de la aplicación:
 
 ---
 * Version: 0.0.20
-
-* version: 0.0.10
+Version: 0.0.10
 ---
 
 
