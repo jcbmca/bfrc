@@ -1,7 +1,7 @@
 ** bfrc - Reconocimiento de caracteres por fuerza bruta**
 
-Esta aplicacion genera un diccionario donde asocia el hash de un arhchivo de imagen (captcha) con su contenido (valor).
-Fue programado con la intecion de demostrar los conocimientos adquiridos en la materia Fundamentos de Computación I (segundo año),
+Esta aplicacion genera un diccionario donde asocia el hash de un archivo de imagen (captcha) con su contenido (valor).
+Fue programado con la intecion de mostrar los conocimientos adquiridos en la materia Fundamentos de Computación I (2do año),
 de la Facultad de Ingeníera de Obera-Misiones.
 
 Este trabajo fue realizado solo con fines educativos, cualqueir uso fuera de este contecto queda bajo su responsabilidad.
